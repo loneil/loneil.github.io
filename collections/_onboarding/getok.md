@@ -25,8 +25,9 @@ If you followed the email link and your don’t see the application ready, pleas
 Once you follow the steps, you will have the API Access, make sure you save the password secuerly as you won’t be able to fetch it again (or you can get a new password by repeating the process).
 
 ###### Step 4 Test with your data and get familiar with API usage (Optional)
-We have put all out API calls into a Postman Collection.
-See how it works: Authorize your Postman request with an Access Token
+We have put all our API calls into a Postman Collection. <br />
+See how it works: <a href="" data-toggle="modal" data-target="#exampleModal">Authorize your Postman request with an Access Token</a>
+{% include common/postmanExampleModal.html %}
 
 ###### Step 5 Invite your team member
 After you’ve created the account for your application, you can invite your team member(s) anytime using our invitation form. The invitee(s) will get an email that is linked to your application and be able to jump in at any stages of the processes. All members can add or remove other team members (except him or herself).
