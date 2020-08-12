@@ -1,0 +1,65 @@
+@import "variables";
+
+/* The header/description section of the pages */
+.page-header {
+  margin-top: 11em;
+  h2 {
+    margin-bottom: 2em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $blue-text;
+  }
+  .page-description {
+    p {
+      margin-bottom: 0;
+    }
+    padding: 2em 5em;
+    background-color: $grey-bg;
+    font-size: 1.25rem;
+    line-height: 2;
+    margin-bottom: 3em;
+  }
+}
+
+/* The tabled list of service/onboarding features */
+.feature-card {
+  margin: 0 2em 6em 2em;
+  > p {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  .card {
+    margin-top: 1em;
+    ul {
+      line-height: 2rem;
+      margin-bottom: 0;
+    }
+    a {
+      color: $blue-text-light;
+      i {
+        margin-left: .5rem;
+        font-size: larger;
+      }
+    }
+    .card-header {
+      color: $blue-text-light;
+      font-size: 1.125rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .card-body {
+      padding: 0;
+      .row {
+        &:not(:last-child) {
+          border-bottom: solid 1px $card-border
+        };
+        div[class^="col"] {
+          padding: 1rem 2rem;
+          &:first-child {
+            border-right: solid 1px $card-border;
+          }
+        }
+      }
+    }
+  }
+}
