@@ -99,7 +99,10 @@
 /* List of clickable cards */
 .service-card-list {
   i {
-    color: $blue-text;
+    color: $blue-text-light;
+  }
+  a i:hover{
+    color: $icon-hover;
   }
   .card {
     margin-bottom: 2rem;
